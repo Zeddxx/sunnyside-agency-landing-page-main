@@ -1,0 +1,124 @@
+@media (width <= 1250px){
+  .content{
+    padding: 30px 40px;
+  }
+  .last-content{
+    padding: 3% 10%;
+  }
+}
+
+@media screen and (width <= 728px) {
+  .menus {
+    display: none;
+    position: relative;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .menu-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    min-width: 80%;
+    gap: 2.1rem;
+    background: var(--fc-white);
+    position: absolute;
+    top: 86px;
+    z-index: 3;
+  }
+  .menu-mobile.active {
+    display: flex;
+  }
+  .menu-mobile::after {
+    content: "";
+    width: 20px;
+    height:20px;
+    background: linear-gradient(
+      to bottom right,
+      transparent 0%,
+      transparent 50%,
+      #fff 50%,
+      #fff 100%
+    );
+    /* border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent; 
+        border-right: 30px solid #fff;  */
+    position: absolute;
+    top: -19px;
+right: -.014rem;
+    z-index: -1;
+  }
+  .menu-list a {
+    color: var(--fc-para);
+  }
+  .menu-list .button {
+    background: var(--bg-yellow);
+    border: 1px solid var(--bg-yellow);
+    padding: 14px 32px;
+  }
+  .menu-list .button:focus{
+    background: transparent;
+    border: 1px solid var(--bg-yellow);
+    color: var(--bg-yellow);
+  }
+  .creative-content h1{
+    font-size: 2.5rem;
+  }
+  .section {
+    display: block;
+  }
+  .hero-section{
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+  .audience-section{
+    height: 100vh;
+    flex-direction: column;
+  }
+  .content,
+  .last-content{
+    padding: 30px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .content h2{
+    font-size: 2.4rem;
+  }
+  .content h2,
+  .content p{
+    text-align: center;
+  }
+  .last-content h2{
+    font-size: 1.4rem;
+  }
+  .last-content p{
+    font-size: 1rem;
+  }
+  .last-section{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .review-container{
+    padding: 14% 0;
+    flex-direction: column;
+    height: 100%;
+    gap: 3rem;
+  }
+  .container{
+    width: 100%;
+    gap: 1.1rem;
+  }
+  .clients{
+    height: auto;
+    padding: 10% 3%;
+  }
+  .footer-above{
+   height: auto;
+  }
+  .footer-above img{
+    flex: 1 1 50%;
+  }
+
+}
