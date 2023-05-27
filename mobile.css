@@ -63,6 +63,11 @@ right: -.014rem;
     border: 1px solid var(--bg-yellow);
     color: var(--bg-yellow);
   }
+  .arrow svg{
+    display: flex;
+    justify-content: center;
+    animation: none;
+  }
   .creative-content h1{
     font-size: 2.5rem;
   }

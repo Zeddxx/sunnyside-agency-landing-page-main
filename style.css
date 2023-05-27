@@ -138,6 +138,9 @@ body{
 }
 .arrow{
     position: relative;
+    display: grid;
+    width: 100vw;
+    place-items: center;
     height: 230px;
 }
 .arrow svg{
