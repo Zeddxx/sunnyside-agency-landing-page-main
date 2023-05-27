@@ -385,6 +385,10 @@ body{
     fill: var(--fc-graphic);
 }
 
+.sunny-logo{
+    cursor: pointer;
+}
+
 .main-footer ul{
     list-style: none;
     display: flex;
