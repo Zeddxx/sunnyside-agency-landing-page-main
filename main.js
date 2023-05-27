@@ -7,4 +7,4 @@ hamburgerBtn.addEventListener('click', () => {
     blurEl.classList.toggle('active');
 })
 
-console.log('Made By Sahil Ahmed')
+console.log('Made By Sahil Ahmed');

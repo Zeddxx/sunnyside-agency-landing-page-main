@@ -349,12 +349,12 @@ body{
     align-items:center;
     gap: .6rem;
 }
-.acc-name h5{
+.acc-name h4{
     font-size: 1.1rem;
     font-family: var(--ff-heading);
     color: var(--fc-head);
 }
-.acc-name h6{
+.acc-name h5{
     color: var(--fc-title);
     font-family: var(--ff-paragraph);
     font-size: .8rem;
